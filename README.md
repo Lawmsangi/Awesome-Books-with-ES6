@@ -49,13 +49,13 @@ A simple Book storing web app using ES6.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://lawmsangi.github.io/Awesome-books/)
+- [Coming Soon]()
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### setup
 <p>Clone this repository to your desired folder</p>
-<a href ="https://github.com/Lawmsangi/Awesome-books.git"></a>
+<a href ="https://github.com/Lawmsangi/Awesome-Books-with-ES6.git"></a>
 
 ### Install
 
@@ -74,24 +74,16 @@ To run tests, run the following command:
 npx hint .
 npx stylelint "*/.{css,scss}"
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
 
 
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/Lawmsangi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lawmsangi-varte-baa429244/)
-
-👤 **Author2**
-
-- GitHub: [@GhostEsso](https://github.com/GhostEsso)
-- LinkedIn: [@essohanam](https://www.linkedin.com/in/essohanam-tambana-62aa081a1/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +118,7 @@ If you like this project you can contact me via my contact address and rate it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all the microverse team and my coding partners.
+I would like to thank the microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
