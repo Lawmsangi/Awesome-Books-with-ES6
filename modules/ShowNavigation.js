@@ -2,7 +2,6 @@ export const showBooksSec = document.getElementById('book-list-section');
 export const addBooksSec = document.getElementById('add-book-section');
 export const contactSec = document.getElementById('contact-section');
 export const list = document.getElementById('show-list');
-// eslint-disable-next-line import/prefer-default-export
 export const add = document.getElementById('show-add');
 export const contact = document.getElementById('show-contact');
 

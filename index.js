@@ -1,10 +1,10 @@
-import { Book } from './modules/ClassBook.js';
+import Book from './modules/ClassBook.js';
 import { getBooks, storeBooks } from './modules/LocalStorage.js';
-import { display } from './modules/DisplayBook.js';
+import display from './modules/DisplayBook.js';
 import {
   list, add, contact, showAddBooks, showAllBooks, showContact,
 } from './modules/ShowNavigation.js';
-import { displayTime } from './modules/Date.js';
+import displayTime from './modules/Date.js';
 
 let myBooks = [];
 

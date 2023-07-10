@@ -1,8 +1,7 @@
-/* eslint-disable */
-import { removeBook } from './RemoveBook.js';
+import removeBook from './RemoveBook.js';
 import { getBooks } from './LocalStorage.js';
 
-export const display = () => {
+const display = () => {
   const bookList = document.getElementById('book-list');
   bookList.innerHTML = '';
 
@@ -35,3 +34,5 @@ export const display = () => {
     });
   }
 };
+
+export default display;

@@ -1,7 +1,6 @@
-/* eslint-disable */
 import { getBooks, storeBooks } from './LocalStorage.js';
 
-export const removeBook = (title, author) => {
+const removeBook = (title, author) => {
   if (getBooks) {
     const myBooks = getBooks;
     myBooks.forEach((item) => {
@@ -16,3 +15,5 @@ export const removeBook = (title, author) => {
     });
   }
 };
+
+export default removeBook;

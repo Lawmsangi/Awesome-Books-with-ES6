@@ -1,8 +1,15 @@
-/* eslint-disable */
 import { DateTime } from './Luxon.js';
 
-export const displayTime = () => {
-  const now = DateTime.now();
+const displayTime = () => {
   const date = document.getElementById('date');
-  date.innerHTML = now.toLocaleString(DateTime.DATETIME_FULL);
+
+  const updateTime = () => {
+    const now = DateTime.now();
+    const formattedTime = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+    date.innerHTML = formattedTime;
+  };
+  updateTime();
+  setInterval(updateTime, 1000);
 };
+
+export default displayTime;
